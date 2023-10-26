@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Aryala7\ABBA\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ABBACommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'abba';
 
     public $description = 'My command';
 
