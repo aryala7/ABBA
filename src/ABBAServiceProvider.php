@@ -2,9 +2,9 @@
 
 namespace Aryala7\ABBA;
 
+use Aryala7\ABBA\Commands\ABBACommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Aryala7\ABBA\Commands\ABBACommand;
 
 class ABBAServiceProvider extends PackageServiceProvider
 {

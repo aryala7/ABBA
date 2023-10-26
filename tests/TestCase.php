@@ -2,9 +2,9 @@
 
 namespace Aryala7\ABBA\Tests;
 
+use Aryala7\ABBA\ABBAServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Aryala7\ABBA\ABBAServiceProvider;
 
 class TestCase extends Orchestra
 {
