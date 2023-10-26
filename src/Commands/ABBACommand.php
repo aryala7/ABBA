@@ -6,9 +6,9 @@ use Illuminate\Console\Command;
 
 class ABBACommand extends Command
 {
-    public $signature = 'abba';
+    public $signature = 'abba:insert';
 
-    public $description = 'My command';
+    public $description = 'insert users to testable users command';
 
     public function handle(): int
     {
